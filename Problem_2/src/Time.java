@@ -8,9 +8,9 @@
 */
 public class Time {
     /* Instance Variables */
-    private int hour;   // [0, 23]
-    private int minute; // [0, 59]
-    private int second; // [0, 59]
+    private int hour;   /* 0 - 23 */
+    private int minute; /* 0 - 59 */
+    private int second; /* 0 - 59 */
 
         /* Constructor (Parameterized) */
     public Time(int hour, int minute, int second){
